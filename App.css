@@ -1,0 +1,79 @@
+html{
+    box-sizing: 0;
+}
+body{
+    
+    background: white;
+    /* text-align: center; */
+}
+.card{
+    background: rgb(231, 229, 229);
+    margin: 20px 0;
+    border-bottom: 2px solid rgb(163, 162, 162);
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 1.2s;
+}
+.card:hover{
+    background-color: rgb(182, 182, 182);
+    transition: 1.2s;
+    cursor: pointer;
+}
+.img{
+width: 200px;
+height: 200px;
+margin: 10px 0;
+border-radius: 100px;
+}
+.author{
+    font-size: large;
+    font-weight: bolder;
+    margin: 5px 10px;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px 10px;
+}
+.description{
+    font-size: large;
+    margin: 5px 0;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    background: grey;
+    font-size: large;
+    border: 2px solid transparent;
+    transition: .8s;
+    border-radius: 5px;
+    
+}
+.link:hover{
+    background: black;
+    color:white;
+    font-size: large;
+    transition: .8s;
+}
+.btn-click{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-column-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.loading-img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
